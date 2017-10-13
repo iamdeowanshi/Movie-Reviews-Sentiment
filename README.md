@@ -1,6 +1,5 @@
-# CMPE-255 Program 1
+# Movie Review Sentiment Analysis
 
-#
 
 **Basic Info:**
 
@@ -35,7 +34,7 @@ To implement a k-Nearest Neighbor Classifier to predict the sentiment for 25000 
 - If review&#39;s negative value is greater than positive value we will assign label as &quot;-1&quot; otherwise &quot;+1&quot;. For review having negative = positive value, we will be assigning &quot;+1&quot;.
 - Write  labels to file format.dat for every review.
 
-**Other Methods: (Reduced Accuracy- Not Included in final output)**
+**Other Methods: (Reduced Accuracy)**
 
 - Used Nltk Porterstemmer to stem each word to their root words
 - Used Nltk pos\_tags to assign tags to each word like : Noun , Adjective etc as noun will not add to polarity of review
